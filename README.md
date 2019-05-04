@@ -33,7 +33,7 @@ configure (if you have complex needs) and run the update-haproxy.py command.
 
 OR
 
-``sudo pip install git+https://github.com/markcaudill/haproxy-autoscale``
+``sudo pip install git+https://github.com/plasticbrain/haproxy-autoscale``
 
 ## Configuration ##
 Most of the configuration is done via command line options. The only
