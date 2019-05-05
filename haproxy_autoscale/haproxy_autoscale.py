@@ -124,8 +124,9 @@ def reload_haproxy(args):
         #command = "/sbin/service %s reload" % args.servicename
         command = "/usr/sbin/service %s reload" % args.servicename
 
-    logging.debug('Executing: %s', command)
+    logging.info('Executing: %s', command)
     subprocess.call(command, shell=True)
+    logging.info('Done')
 
 
 class Backends(object):
